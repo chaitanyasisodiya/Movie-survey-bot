@@ -1,7 +1,8 @@
 # Movie Survey Bot with Streamlit and Langchain
 
 ## Overview
-The Movie Survey Bot is a conversational chatbot designed to conduct surveys related to movies. It asks users a series of questions about their movie preferences and gathers their responses.
+The Movie Survey Bot is a conversational chatbot designed to conduct surveys related to movies based on plot provied.
+It asks users a series of follo-up questions about movie based on plot and gathers their responses ,based on response generate new suvery question.
 
 ## Features
 - Asks users a series of movie-related questions from Movie plot.
@@ -10,6 +11,7 @@ The Movie Survey Bot is a conversational chatbot designed to conduct surveys rel
 
 ## Usage
 1. Clone the repository:
+   ``` bash
    git clone https://github.com/chaitanyasisodiya/Movie-survey-bot.git
    cd Movie-survey-bot
    

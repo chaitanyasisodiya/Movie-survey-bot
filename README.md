@@ -1,2 +1,6 @@
 # Movie survey bot
- This repo consist of Movie survey bot file
+ This repostioary is about Movie survey bot  based on Plot data.
+
+
+# Description:
+

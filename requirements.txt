@@ -3,7 +3,5 @@ streamlit
 langchain-openai
 python-dotenv
 langchain-community
-watchdog
-streamlit_chat
-langchain_experimental
 ollama
+watchdog

@@ -158,7 +158,7 @@ if prompt := st.chat_input():
     st.session_state.messages.append({"role": "user", "content": prompt})
     st.chat_message("user").write(prompt)
     with st.spinner('Processing...'):
-        msg = get_response(llm,golmaal_plot,prompt)
+        msg = get_response(llm,uri_plot,prompt)
     st.session_state.messages.append({"role": "AI", "content": msg})
     st.chat_message("assistant").write(msg)
 
